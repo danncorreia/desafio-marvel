@@ -1,2 +1,2 @@
 # desafio-marvel
-Desafio Marfel com AngularJS
+Desafio Marvel com AngularJS e NodeJS para hospedagem na heroku
