@@ -2,7 +2,7 @@ angular.module('myApp.characterController', ['ngRoute', 'myApp.character.service
 
 .config(['$routeProvider', function ($routeProvider) {
   $routeProvider.when('/character/:characterId', {
-    templateUrl: 'components/character/characterView.html',
+    templateUrl: 'app/components/character/characterView.html',
     controller: 'CharacterController'
   });
 }])

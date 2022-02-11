@@ -1,0 +1,26 @@
+{
+  "name": "desafio-marvel",
+  "version": "1.0.0",
+  "description": "Desafio Marfel com AngularJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danncorreia/desafio-marvel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danncorreia/desafio-marvel/issues"
+  },
+  "homepage": "https://github.com/danncorreia/desafio-marvel#readme",
+  "dependencies": {
+    "ejs": "^2.3.1",
+    "express": "~4.9.x"
+  },
+  "engines": {
+    "node": "0.12.2"
+  }
+}
