@@ -1,0 +1,33 @@
+<div class="col-12 search">
+  <div class="input-group">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Buscar pelo nome"
+      ng-model="nome"
+    />
+    <span class="input-group-btn">
+      <button class="btn btn-default" type="button" ng-click="pesquisar()">
+        Pesquisar
+      </button>
+    </span>
+  </div>
+</div>
+
+<div
+  class="row"
+  ng-repeat="character in characters"
+  ng-click="characterClick(character.id)"
+>
+  <div class="box cursor-pointer">
+    <div class="row">
+      <img
+        class="col-md-3 col-sm-12"
+        ng-src="{{character.thumbnail.path}}/standard_xlarge.{{character.thumbnail.extension}}"
+      />
+      <div class="col-md-8 col-sm-12 flex fd-column">
+        <h3>{{character.name}}</h3>
+      </div>
+    </div>
+  </div>
+</div>
