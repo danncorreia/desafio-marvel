@@ -1,6 +1,6 @@
 {
   "name": "desafio-marvel",
-  "version": "1.0.0",
+  "version": "1.0.0-1",
   "description": "Desafio Marfel com AngularJS",
   "main": "server.js",
   "scripts": {
@@ -21,6 +21,6 @@
     "express": "~4.9.x"
   },
   "engines": {
-    "node": "0.12.2"
+    "node": "14.17.6"
   }
 }
